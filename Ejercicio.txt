@@ -1,0 +1,5 @@
+Formulario para registrarse en las mesas de examen para intentar aporobar las 2 materias
+El Formulario debe contener:
+1. Nombre, mail y materia adeudada
+2. Validar que el nombre y el mail sea validos
+3. Enviar al servidor de manera pulida
