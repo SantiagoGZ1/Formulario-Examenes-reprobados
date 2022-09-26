@@ -14,8 +14,8 @@ envio.addEventListener('click', (e)=>{
     alert("Bienvenido Cofla");
     if (subject1.value != subject2.value){
       alert(`Se elegieron ${e,subject1.value} y ${e,subject2.value} con exito.`);
-      alert("Presione en el boton submit para enviar los datos.");
-      containerSubmit.innerHTML = `<button style="color:red" type="submit" id="submit">Submit</button>`;
+      alert("Presione en el boton ENVIAR para enviar los datos.");
+      containerSubmit.innerHTML = `<button style="color:red" type="submit" id="submit">ENVIAR</button>`;
       submit.addEventListener('click', (e)=>{
         alert(`Los datos fueron enviados con exito. \nLe llegara un mail a "${e,mail.value}" con la información.`);
       });
