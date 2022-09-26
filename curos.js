@@ -10,7 +10,7 @@ envio.addEventListener('click', (e)=>{
   console.log(e,mail.value);
   let sibjetValue1 = console.log(e,subject1.value);
   let sibjetValue2 = console.log(e,subject2.value);
-  if (name.value == ("Cofla") && e,mail.value == e,mail.value.includes('@')){
+  if (name.value == ("Cofla") && e,mail.value == e,mail.value.includes ("@") && e,mail.value.includes (".com") ){
     alert("Bienvenido Cofla");
     if (subject1.value != subject2.value){
       alert(`Se elegieron ${e,subject1.value} y ${e,subject2.value} con exito. \nDebe estar pendiente de su correo "${e,mail.value}" para recibir mas informacion`);
