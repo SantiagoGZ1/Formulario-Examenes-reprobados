@@ -1,20 +1,25 @@
 const envio = document.querySelector('#check');
 const name = document.querySelector('#name');
 const mail = document.querySelector('#mail');
-const subject = document.querySelector('#subjects');
+const subject1= document.querySelector('#subjects1');
+const subject2 = document.querySelector('#subjects2');
 
 
 envio.addEventListener('click', (e)=>{
   let nameValue = console.log(e,name.value);
   console.log(e,mail.value);
-  let sibjetValue = console.log(e,subject.value);
-  if (e,mail.value == e,mail.value.includes('@')){
-    console.log("q");
+  let sibjetValue1 = console.log(e,subject1.value);
+  let sibjetValue2 = console.log(e,subject2.value);
+  if (name.value == ("Cofla") && e,mail.value == e,mail.value.includes('@')){
+    alert("Bienvenido Cofla");
+    if (subject1.value != subject2.value){
+      alert(`Se elegieron ${e,subject1.value} y ${e,subject2.value} con exito. \nDebe estar pendiente de su correo "${e,mail.value}" para recibir mas informacion`);
+    }else{
+      alert("No se puede elegir dos veces la misma materia \n Por favor elija otra materia");
+    }
   }else{
-    console.log("si hay algo");
+    alert("Datos incorrectos");
   }
 });
 
 
-//const mailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-//name.value == "Cofla" && 
