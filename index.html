@@ -11,10 +11,11 @@
 
 <body>
   <form>
-    <input type="text" name="name" id="name" placeholder="Nombre Completo">
-    <input type="email" name="email" id="email" placeholder="Mail">
-    <input type="text" name="subjet" id="subjet" placeholder="Materia adeudada">
+    <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+    <input type="email" name="email" id="email" placeholder="Mail" required>
+    <input type="text" name="subjet" id="subjet" placeholder="Materia adeudada" required>
     <input type="submit" value="Solicitar Mesa" id="btn-enviar">
+    <div class="resultado"></div>
   </form>
   
   <script src="curos.js"></script>
